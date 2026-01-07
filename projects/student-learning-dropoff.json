@@ -1,0 +1,15 @@
+{
+  "title": "Student Learning Drop-off Prediction",
+  "problem": "Predict whether a student will drop out of an online course based on learning behavior data.",
+  "dataset": "Online Learning Platform Dataset",
+  "analysis": [
+    "Exploratory Data Analysis on engagement metrics",
+    "Handling missing values and feature engineering",
+    "Binary classification modeling"
+  ],
+  "models": ["Logistic Regression", "Random Forest"],
+  "results": "The model successfully identified students at risk of dropping out, enabling early intervention.",
+  "tools": ["Python", "Pandas", "Scikit-learn"],
+  "github": "https://github.com/yourusername/student-learning-dropoff-ml",
+"images": []
+}

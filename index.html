@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ML Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>📁 Projects</h2>
+    <div id="project-list" class="project-list"></div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+    <section class="about">
+  <h1>Hi, I'm Mahe 👋</h1>
+  <p>
+    I'm a Computer Science student passionate about Machine Learning,
+    Data Analysis, and building real-world projects.
+    I enjoy turning raw data into insights and clean, explainable models.
+  </p>
+
+  <p>
+    This portfolio showcases my ML projects — covering data preprocessing,
+    exploratory analysis, model building, and result interpretation.
+  </p>
+
+  <div class="links">
+    <a href="https://github.com/mahe510" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/mahe-barnwal-4a28a6302" target="_blank">LinkedIn</a>
+  </div>
+</section>
+
+<hr>
+
+    <h1 id="title">Select a project</h1>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab('problem')">Problem</button>
+      <button class="tab-btn" onclick="showTab('analysis')">Analysis</button>
+      <button class="tab-btn" onclick="showTab('results')">Results</button>
+    </div>
+
+    <!-- Problem -->
+    <section id="problem" class="tab">
+      <p id="problem-text"></p>
+      <p><strong>Dataset:</strong> <span id="dataset"></span></p>
+    </section>
+
+    <!-- Analysis -->
+    <section id="analysis" class="tab hidden">
+      <ul id="analysis-list"></ul>
+      <p><strong>Models:</strong> <span id="models"></span></p>
+      <p><strong>Tools:</strong> <span id="tools"></span></p>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="tab hidden">
+      <p id="results-text"></p>
+      <div id="image-gallery" class="image-grid"></div>
+      <a id="github" target="_blank" class="github-btn">🔗 View on GitHub</a>
+    </section>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

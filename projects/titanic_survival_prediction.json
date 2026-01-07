@@ -1,0 +1,15 @@
+{
+  "title": "Titanic Survival Prediction",
+  "problem": "Predict whether a passenger survived the Titanic disaster using demographic and travel data.",
+  "dataset": "Titanic Dataset (Kaggle)",
+  "analysis": [
+    "Exploratory Data Analysis on passenger attributes",
+    "Handling missing values and categorical encoding",
+    "Model comparison and evaluation"
+  ],
+  "models": ["Logistic Regression", "Random Forest"],
+  "results": "The model achieved good accuracy in predicting passenger survival based on key features.",
+  "tools": ["Python", "Pandas", "Matplotlib", "Scikit-learn"],
+  "github": "https://github.com/yourusername/titanic-survival-prediction",
+"images": []
+}

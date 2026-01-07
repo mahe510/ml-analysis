@@ -1,0 +1,21 @@
+{
+  "title": "Customer Segmentation",
+  "problem": "Segment mall customers into distinct groups based on spending behavior to help targeted marketing.",
+  "dataset": "Mall Customers Dataset",
+  "analysis": [
+    "Exploratory Data Analysis on age, income and spending score",
+    "Elbow method to determine optimal number of clusters",
+    "K-Means clustering for customer grouping"
+  ],
+  "models": ["K-Means Clustering"],
+  "results": "Customers were segmented into meaningful groups such as high-spenders, average customers, and budget-conscious customers.",
+  "tools": ["Python", "Pandas", "Matplotlib", "Scikit-learn"],
+  "github": "https://github.com/yourusername/customer-segmentation"
+
+  ,
+  "images": [
+    "images/customer_segmentation/eda.png",
+    "images/customer_segmentation/elbow.png",
+    "images/customer_segmentation/clusters.png"
+  ]
+}
